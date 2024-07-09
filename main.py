@@ -64,5 +64,5 @@ def callback_query(call):
             threading.Thread(target=polling_worker).start()
             timer_event(user_id, time.time())
 
-
+print("test")
 bot.polling(none_stop=True)
