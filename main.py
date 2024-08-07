@@ -3,7 +3,7 @@ from telebot import types
 import datetime
 import time
 import threading
-bot = telebot.TeleBot('')
+bot = telebot.TeleBot('7440534569:AAFXLEs0YZE48EruWrWBXfWJJ9tthP6748Y')
 users = {}
 @bot.message_handler(commands=['start'])
 def start_message(message):
